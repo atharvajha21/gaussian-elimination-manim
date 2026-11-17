@@ -4,6 +4,12 @@ An educational animation project built with Python and Manim Community Edition.
 
 The project visually explains how to solve a system of three linear equations using Gaussian elimination, elementary row operations, row echelon form, and back substitution.
 
+## Student Details
+
+- **Author:** Atharva Jha
+- **URN:** E25B070903
+- **Batch:** Ramanujan
+
 ## Final Video
 
 **MathsFinal vedio.mp4** — 1080p, 16:9 landscape, approximately 3 minutes 55 seconds.
@@ -78,9 +84,9 @@ manim -pqh Code/main_sync.py GaussianElimination
 
 ## Tools and AI Disclosure
 
-Manim Community Edition, Python, and FFmpeg were used in the production workflow. ChatGPT assisted with planning, explanations, code guidance, troubleshooting, and documentation.
+Manim Community Edition, Python, and FFmpeg were used in the production workflow. ChatGPT assisted with planning, mathematical explanations, code guidance, troubleshooting, and project documentation. AI-generated visual assets were created with ChatGPT and incorporated into the project workflow. The voice-over narration was AI-generated. No background music was used.
 
-See [AI_TOOL_DISCLOSURE.md](AI_TOOL_DISCLOSURE.md) for the disclosure. Before submission, complete its voice-over, music, and visual-asset statements accurately. If background music is present, credit the track and creator/source.
+See [AI_TOOL_DISCLOSURE.md](AI_TOOL_DISCLOSURE.md) for details.
 
 ## Project Documents
 
@@ -91,4 +97,5 @@ See [AI_TOOL_DISCLOSURE.md](AI_TOOL_DISCLOSURE.md) for the disclosure. Before su
 
 Atharva Jha
 
-**Student ID:** [Add your student ID before submission]
+**URN:** E25B070903  
+**Batch:** Ramanujan
