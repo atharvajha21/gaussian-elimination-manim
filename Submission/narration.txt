@@ -1,0 +1,107 @@
+Welcome to this visual guide on Gaussian Elimination.
+
+In this video, we will learn how to solve a system of three linear equations using a systematic mathematical method.
+
+Let's understand each step, perform the required row operations, and finally verify our answer.
+
+Consider the following system of equations.
+
+Our first equation is x plus y plus z equals six.
+
+The second equation is two x plus y minus z equals one.
+
+And the third equation is x minus y plus two z equals five.
+
+Our objective is to find the values of x, y, and z that satisfy all three equations.
+
+The first step is to convert these equations into an augmented matrix.
+
+We write the coefficients of x, y, and z in the first three columns, and the constants in the last column.
+
+The first non-zero entry in a row is called a pivot.
+
+A pivot acts as the starting point for eliminating other entries in its column. By choosing pivots carefully, we gradually simplify the matrix.
+
+We use pivots to eliminate the entries below them.
+
+Our first pivot is one.
+
+To eliminate the two in the second row, we subtract twice the first row from the second row.
+
+Next, we subtract the first row from the third row.
+
+After these operations, the first column contains zeros below the pivot.
+
+Notice that we have not changed the solution of the original system. These elementary row operations produce an equivalent system with the same answers.
+
+Now, we move to the second pivot, which is negative one.
+
+We use the second row to eliminate the negative two in the third row.
+
+After performing the operation, the third row becomes zero, zero, seven, and twenty-one.
+
+Our next step is to divide every element in the third row by seven.
+
+This gives us the final pivot, which is one, and the constant becomes three.
+
+We have now reached row echelon form.
+
+Notice the staircase pattern. Each leading entry moves to the right as we move down the rows, and all entries below each pivot are zero.
+
+Now we solve the equations starting from the bottom row.
+
+The third row gives us z equals three.
+
+Substituting this value into the second row gives negative y minus nine equals negative eleven.
+
+Adding nine to both sides gives negative y equals negative two.
+
+Therefore, y equals two.
+
+Now substitute y equals two and z equals three into the first equation.
+
+We get x plus two plus three equals six.
+
+Therefore, x equals one.
+
+We have now calculated all three unknowns. The important idea of back substitution is to start with the easiest equation at the bottom and work upwards.
+
+Let's understand the row operations through individual calculations.
+
+For the second row, we subtract twice the first row, entry by entry.
+
+Two minus two times one gives zero.
+
+One minus two times one gives negative one.
+
+Negative one minus two times one gives negative three.
+
+And one minus two times six gives negative eleven.
+
+Therefore, our new second row is zero, negative one, negative three, and negative eleven.
+
+We follow the same process for the third row.
+
+Then we use the updated second row to eliminate the second-column entry.
+
+This gives us the final row: zero, zero, seven, and twenty-one.
+
+Dividing by seven gives z equals three.
+
+Let's verify our answer by substituting the values into the original equations.
+
+One plus two plus three equals six.
+
+Two times one plus two minus three equals one.
+
+And one minus two plus two times three equals five.
+
+All three equations are satisfied.
+
+This verification is important because it confirms that our calculated values solve the original system, not just the transformed matrix.
+
+Therefore, our final solution is x equals one, y equals two, and z equals three.
+
+This completes our step-by-step explanation of Gaussian Elimination.
+
+Thank you for watching!
